@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device_width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home-page</title>
+</head>
+<body>
+     <section class="showcase">
+        <video src="HotelVideo.mp4" muted autoplay loop></video>
+        <header>
+            <h2 class="logo" style="color: aliceblue;">ZYNM GROUP OF HOTELS(KOLKATA)</h2>
+            <div class="toggle"></div>
+        </header>
+        
+        <div class="overlay">
+        </div>
+         <div class="text" style="color: aliceblue;">
+            <h2>Never Stop</h2>
+            <h3>Exploring new Destinations</h3>
+            <p>“A mind that is stretched by a new experience can never go back to its old dimensions.”</p>
+            <a href="#">Explore</a>
+        </div>
+        
+        <ul class="social">
+            <li><a href="https://www.facebook.com/"><img src="facebook.png" alt=""></a></li>
+            <li><a href="https://twitter.com/"><img src="twitter.png" alt=""></a></li>
+            <li><a href=" https://www.instagram.com/"><img src="instagram.png" alt=""></a></li>
+        </ul> 
+    </section>
+    
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="CustomerHome.html">Customer</a></li>
+            <li><a href="AdminHome.html">Admin</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+    
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+</body>
+</html>
