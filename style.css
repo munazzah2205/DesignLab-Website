@@ -388,19 +388,20 @@ button{
      padding:10px;      
    }
 
+
+
 /*Description*/
 .product{
     margin-top: 5%;
-    top:50%;
+    top:30%;
     left:50%;
-    transform: translate(-100%,-50%);
+    transform: translate(-90%,-50%);
     position: absolute;
 }
 
 .product-text{
     
-    margin-left: 500px;
-    margin-top: 15px;
+    margin-left: 650px;
     position: absolute;
     width: max-content;
 }
@@ -427,7 +428,7 @@ button{
 }
 
 .img-container img{
-    height: 500px;
+    height: 300px;
 }
 
 .product-text button{
@@ -449,6 +450,11 @@ button{
     font-size: 20px;
     color: black;
     font-weight: 300;
+}
+.addToCart{
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 150px;
 }
 
 /*Management*/
